@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 70vw;
+    height: 25vh;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 70vw;
+    height: 25vh;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar ul a, .navbar ul a:visited {
+    display: block;
+    margin-top: -20px ;
+    width: 120px;
+    border: 1px solid black;
+    padding: 10px 0;
+    text-decoration: none;
+    background: yellow;
+    color: black;
+    text-align: center;
+}
+
+.navbar ul a:hover {
+    background: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.informations {
+    width: 70vw;
+    margin: 25vh auto;
+    display: flex;
+    justify-content: space-between;
+}
