@@ -56,3 +56,25 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+.staff {
+    width: 70vw;
+    margin: 15vh auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.staff div {
+    text-align: center;
+}
+
+.staff img {
+    width: 15vw;
+    height: 20vh;
+}
+
+.menu {
+    width: 70vw;
+    margin: 10vh auto;
+    text-align: center;
+}

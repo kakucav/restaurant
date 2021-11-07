@@ -1,11 +1,12 @@
 <?php
+    const FOOTER_STRING = 'Premium Restaurant';
     include('includes/arrays.php');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <link href="styles.css" rel="stylesheet">
-    <title>Restaurant App</title>
+    <title> <?php echo TITLE; ?> | Restaurant App</title>
 </head>
 <body>
 <header>

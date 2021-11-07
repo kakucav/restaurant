@@ -1,7 +1,7 @@
 <ul>
     <?php
         foreach ($pages as $page) {
-            echo "<li><a href='".$page['page']."' title='".$page['title']." Page'>".$page['title']."</a></li>";
+            echo "<li><a href='{$page['page']}' title='{$page['title']} Page'>{$page['title']}</a></li>";
         }
     ?>
 </ul>

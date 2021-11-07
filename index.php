@@ -1,4 +1,5 @@
 <?php
+    const TITLE = 'Home';
     include('includes/header.php');
 ?>
 <div class="informations">

@@ -1,6 +1,6 @@
     </main>
     <footer>
-        &copy;<?php echo date('Y'); ?> - <small>Premium Restaurant</small>
+        &copy;<?php echo date('Y'); ?> - <small><?php echo FOOTER_STRING; ?></small>
     </footer>
 </body>
 </html>
