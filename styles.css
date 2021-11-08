@@ -78,3 +78,28 @@ footer {
     margin: 10vh auto;
     text-align: center;
 }
+
+.item {
+    width: 70vw;
+    margin: 15vh auto;
+}
+
+.contact {
+    width: 70vw;
+    margin: 10vh auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    display: block;
+    align-self: center;
+    margin: 0 auto;
+    width: 20vw;
+    height: 5vh;
+}
+
+.contact textarea {
+    height: 10vh;
+}
